@@ -1,0 +1,21 @@
+'use client';
+import NavBar from '../components/NavBar';
+import { Container } from 'reactstrap';
+import { Auth0Provider } from '@auth0/nextjs-auth0';
+import './global.css';
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" className="h-full">
+      <head />
+      <body className="h-full w-full m-0 p-0">
+        <Auth0Provider>
+          <main id="app" className="d-flex flex-column h-100" data-testid="layout">
+            <NavBar />
+            <Container className="flex-grow-1 mt-5">{children}</Container>
+          </main>
+        </Auth0Provider>
+      </body>
+    </html>
+  );
+}

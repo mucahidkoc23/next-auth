@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import 'flowbite';
+
+html,
+body {
+  height: 100%;
+  background-color: #FAEBDD !important;
+  height: 100%;
+  margin: 10;
+  padding: 0;
+}
