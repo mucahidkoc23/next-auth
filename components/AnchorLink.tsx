@@ -1,11 +1,12 @@
 import React, { ReactNode } from 'react';
 import NavBarItem from './NavBarItem';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 interface AnchorLinkProps {
   children: ReactNode;
   href: string;
   className?: string;
-  icon?: ReactNode;
+  icon?: IconProp;
   tabIndex?: number;
   testId?: string;
 }

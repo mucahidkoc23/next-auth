@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import Hero from '../components/Hero';
+import Login from '../components/Login';
 
 const Index: React.FC = () => {
   return (
     <>
-      <Hero />
+      <Login />
     </>
   );
 };

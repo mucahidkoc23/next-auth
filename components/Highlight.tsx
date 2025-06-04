@@ -35,7 +35,7 @@ const Highlight: React.FC<HighlightProps> = ({ children, testId }) => {
   if (!isLoaded) return null;
 
   return (
-    <pre className="rounded" data-testid={testId}>
+    <pre className="rounded " data-testid={testId}>
       <code ref={codeNode} className={language}>
         {children}
       </code>
