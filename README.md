@@ -1,3 +1,5 @@
+Projeyi incelemek isterseniz : https://next-auth-nine-pi.vercel.app/
+
 # Proje Başlangıç Rehberi
 
 ## Gerekli Hesap Oluşturma ve Ayarlar
